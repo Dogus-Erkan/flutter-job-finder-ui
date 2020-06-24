@@ -1,3 +1,5 @@
-# job_finder_ui
+# Job Finder UI App
 
-A new Flutter project.
+## Demo
+
+<img src="demo/demo.gif" width="35%"/>
