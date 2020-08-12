@@ -77,7 +77,7 @@ class _HomeState extends State<Home> {
               Text('Hello John, Find your dream job', style: ThemeStyles.title),
               SizedBox(height: 16.0),
               _buildSearchRow(),
-              SizedBox(height: 8.0),
+              SizedBox(height: 16.0),
               _buildJobKeywordsContainer(),
               SizedBox(height: 16.0),
               _buildPopularJobsContainer(),
@@ -370,6 +370,7 @@ class _HomeState extends State<Home> {
       children: <Widget>[
         Expanded(
           child: Container(
+            height: 40.0,
             decoration: BoxDecoration(
               color: ThemeColors.ultraLightBlue,
               borderRadius: BorderRadius.circular(20.0),
